@@ -1,82 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LysyanskyA</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <table cellspacing="15">
-        <tr>
-            <td><img src="ava.jpg" alt="avatar" width="200"></td>
-            <td><h1>Артём Лысянский</h1>
-                <p><em>Я классный чел из города <strong>Тольятти</strong></em></p>
-                <p>Люблю ремонтировать технику и кататься на велосипеде</p></td>
-        </tr>
-    </table>
+    <div class="container">
+        <div class="info">
+            <img src="ava.jpg" alt="avatar" width="200" class="avatar"></td>
+            <div class="info-text">
+            <h1>Артём Лысянский</h1>
+            <p><em>Я классный чел из города <strong>Тольятти</strong></em></p>
+            <p>Люблю ремонтировать технику и кататься на велосипеде</p>
 
-    <hr>
-    <h2>Мои социальные сети</h2>
-    <ul type="square">
-        <li><a href="https://t.me/la163" target="_blank">Telegram</a></li>
-        <li><a href="https://www.instagram.com/olololiy" target="_blank">Instagram</a></li>
-    </ul>
-    <hr>
-    <h2>Мои хобби</h2>
-    <ol type="I">
-        <li>Велосипед</li>
-        <li>Сноуборд</li>
-        <li>Путешествия</li>
-        <li><strong>Общение</strong></li>
-    </ol>
-    <hr>
+            <h4>Мои социальные сети</h4>
 
+            <a href="https://t.me/la163" target="_blank">Telegram</a>
+            |
+            <a href="https://www.instagram.com/olololiy" target="_blank">Instagram</a>
+        </div>
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Велосипед</li>
+                <li>Сноуборд</li>
+                <li>Путешествия</li>
+                <li><strong>Общение</strong></li>
+            </ol>
+        </div>
+        <div class="card bg-red">
+            <h2>Портфолио</h2>
+            <a href="dop.html">Посмотреть список</a>
+        </div>
+        <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+            
+            <tr>
+                <td>GDC</td>
+                <td>System administrator</td>
+                <td>2020 - 2021</td>
+            </tr>
+            <tr>
+                <td>Roboclub</td>
+                <td>Instructor</td>
+                <td>2019 - 2020</td>
+            </tr>
+        </table>
+    </div>
     
+    <div class="contact">
+        <h2>Связаться со мной</h2>
 
-    <h2>Портфолио</h2>
-    <a href="dop.html">Посмотреть список</a>
-    <hr>
-    <h2>Опыт работы</h2>
-    <table>
-        <tr>
-            <th>Компания</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-        <tr>
-            <td>GDC</td>
-            <td>System administrator</td>
-            <td>2020 - 2021</td>
-        </tr>
-        <tr>
-           <td>Roboclub</td>
-           <td>Instructor</td>
-           <td>2019 - 2020</td>
-        </tr>
-    </table>
-   <hr>
-   <h2>Связаться со мной</h2>
-
-    <form action="/">
+        <form action="/">
+            <div class="row">
+            <div class="form-group">
             <label for="name">Ваше имя</label>
             <input type="text" id="name" placeholder="Ваше имя...">
-            <br>
+            </div>
+
+            <div class="form-group">
             <label for="email">Ваш email</label>
             <input type="email" id="email" placeholder="Ваш email...">
-            <br>
+            </div>
+        </div>
+
+            <div class="form-group">
             <label for="email">Ваше сообщение:</label>
-            <br>
-            <textarea name="" id="" cols="30" rows="10" id='text'></textarea>
-            <br>
-            <input type="submit" value="Связаться">
-            <br>
             
-    </form>
-    <hr>
+            <textarea name="" id="" cols="30" rows="10" id='text'></textarea>
+            </div>
+            <input class="btn" type="submit"
+             value="Связаться">
+            
 
-
-    
+        </form>
+    </div>
+    </div>
+    <div class="position">
+        <div class="box"></div>
+    </div>
+    <div style="margin-bottom: 500px;"></div>
+    </div>
 </body>
 
 </html>
