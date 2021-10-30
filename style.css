@@ -34,7 +34,7 @@ a:visited{
 }
 
 .avatar {
-    width: 250px;
+    width: 260px;
     border-radius: 50%;
     box-shadow: 4px 4px 14px;
 }
@@ -116,6 +116,11 @@ a:visited{
 }
 
 .card h2 {
+    margin-bottom: 10px;
+}
+
+.diy {
+    color: #86898f;
     margin-bottom: 10px;
 }
 
